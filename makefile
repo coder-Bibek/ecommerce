@@ -10,10 +10,10 @@ install.server:
 	npx lerna exec --scope @ecommerce/server -- make install
 
 run.app:
-	npx lerna exec --scope @accountin/client -- make run
+	npx lerna exec --scope @ecommerce/app -- make run
 
 test.app:
-	npx lerna exec --scope @accountin/client -- make test
+	npx lerna exec --scope @ecommerce/app -- make test
 
 run.server:
-	npx lerna exec --scope @accountin/server -- make run
+	npx lerna exec --scope @ecommerce/server -- make run
