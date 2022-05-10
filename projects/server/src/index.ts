@@ -20,5 +20,5 @@ connection.connect((err) => {
 app.use("/api", router.users)
 
 app.listen(config.port, () => {
-    console.log(`🚀 server started succesfully at port ${config.port}`)
+    console.log(`🚀 server started succesfully at http://${config.db.host}:${config.port}`)
 })
