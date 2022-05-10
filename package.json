@@ -1,0 +1,12 @@
+{
+  "name": "@monorepo/ecommerce",
+  "version": "1.0.0",
+  "description": "ecommerce platform",
+  "repository": "git@github.com:coder-Bibek/ecommerce.git",
+  "author": "bibek@dzangolab <bibek@dzangolab.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
