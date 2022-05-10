@@ -1,0 +1,11 @@
+{
+  "name": "@ecommerce/server",
+  "version": "1.0.0",
+  "description": "server for ecommerce platform",
+  "scripts": {
+    "start": "nodemon src/index.ts"
+  },
+  "author": "bibek@dzangolab <bibek@dzangolab.com>",
+  "license": "UNLICENSED",
+  "private": true
+}
