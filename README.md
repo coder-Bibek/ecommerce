@@ -9,3 +9,8 @@ make install
 ```
 make run.app
 ```
+
+## Run server
+```
+make run.server
+```
