@@ -4,3 +4,13 @@
 ```
 make install
 ```
+
+## Run app
+```
+make run.app
+```
+
+## Run server
+```
+make run.server
+```
