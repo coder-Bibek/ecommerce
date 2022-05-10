@@ -4,3 +4,8 @@
 ```
 make install
 ```
+
+## Run app
+```
+make run.app
+```
