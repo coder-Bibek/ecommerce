@@ -8,11 +8,9 @@ interface PageProps {
 
 export default function Page({ children, title }: PageProps): JSX.Element {
     return (
-        <main>
+        <main className={styles.mainContainer}>
             {title && <h1>{title}</h1>}
-            <section className={styles.mainContainer}>
-                {children}
-            </section>
+            {children}
         </main>
     )
 }
