@@ -5,13 +5,16 @@ import {
   Route
 } from "react-router-dom"
 
+import MainLayout from '../common/components/templates/Layout';
 import './App.scss';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route></Route>
+        <Route path='/' element={<MainLayout />}>
+
+        </Route>
       </Routes>
     </Router>
   );
