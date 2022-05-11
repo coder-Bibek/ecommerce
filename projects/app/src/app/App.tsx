@@ -1,11 +1,19 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom"
+
 import './App.scss';
 
 function App() {
   return (
-    <React.Fragment>
-      <h1>Hello world</h1>
-    </React.Fragment>
+    <Router>
+      <Routes>
+        <Route></Route>
+      </Routes>
+    </Router>
   );
 }
 
