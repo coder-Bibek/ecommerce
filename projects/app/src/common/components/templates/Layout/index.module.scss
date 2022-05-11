@@ -1,0 +1,9 @@
+.topContainer {
+  margin: 0 3rem;
+}
+
+@media only screen and (min-width: 576px) {
+  .topContainer {
+    margin: 3rem 6rem;
+  }
+}
