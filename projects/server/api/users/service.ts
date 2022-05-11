@@ -2,18 +2,18 @@ import connection from "../../db/config";
 
 const fetchUser = () => {
     return new Promise((resolve, reject) => {
-        const a = 7;
+        connection.query('select * from users where active_status = 1', (err, result) => {
+            if (err) {
+                return reject({
+                    message: 'error on fetching users',
+                    status: false
+                })
+            }
 
-        if (a < 5) {
-            return reject({
-                message: "error on fetch",
-                status: false
+            resolve({
+                data: result,
+                status: true
             })
-        }
-
-        resolve({
-            message: "success",
-            status: true
         })
     })
 }
