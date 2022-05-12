@@ -1,9 +1,73 @@
 .topContainer {
-  margin: 0 2rem;
+  header {
+    background-color: #0c4e6e;
+    width: 100%;
+
+    section {
+      margin: 0 2rem;
+      color: white;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .loginContainer {
+      display: none;
+    }
+  }
+
+  .layoutContainer {
+    margin: 0 2rem;
+  }
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 768px) {
   .topContainer {
-    margin: 3rem 6rem;
+    .layoutContainer {
+      margin: 0rem 4rem;
+    }
+
+    header {
+      section {
+        margin: 0 4rem;
+      }
+
+      .loginContainer {
+        display: flex;
+
+        p:nth-child(2) {
+          margin-left: 1rem;
+        }
+      }
+    }
   }
+}
+
+@media only screen and (min-width: 992px){
+  .topContainer {
+    .layoutContainer {
+      margin: 0rem 6rem;
+    }
+
+    header {
+      section {
+        margin: 0 6rem;
+      }
+    }
+  } 
+}
+
+@media only screen and (min-width: 1200px){
+  .topContainer {
+    .layoutContainer {
+      margin: 0rem 8rem;
+    }
+
+    header {
+      section {
+        margin: 0 8rem;
+      }
+    }
+  } 
 }
